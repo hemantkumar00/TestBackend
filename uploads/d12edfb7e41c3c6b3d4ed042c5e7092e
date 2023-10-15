@@ -1,0 +1,9 @@
+name,desc,options,correctOpt,marks,negative,rational,img,solution
+sdfa,asdf,"dfas,asdf,asdf",1,3,1,saf,we,adfg
+asdf,asdfew,"adf,asdf,as",2,3,1,asdf,asd,asdg
+asdf,asdfsda,"asdf,asdf,as,df,asdf,asdf",3,3,1,asdf,fasdg,fasdg
+asdf,asefwe,"asdf,asd,fas,asdf,asdf,",2,3,1,asdf,fafd,asdg
+asdfasw,asdf,"asdf,asdf,asdf,asd,fas,df",2,3,1,asdf,gasd,gasd
+asdfasw,safsd,"asdf,asdf,asdfasd,f",5,3,1,asdfasdf,gfadfg,gasd
+asrtwe,asdfsda,"asdf,asdf,asdf",1,3,1,asdf,asdfa,gasd
+asdfc,asdf,"asdfew,asdf,asdf",4,3,1,asdf,agdasd,dg
