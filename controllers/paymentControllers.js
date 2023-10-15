@@ -55,12 +55,12 @@ module.exports.PaymentVarification = async (req, res) => {
 
       // TODO: Multiple things like adding data to payment module, in user, and in testseries
       res.redirect(
-        `http://ec2-52-66-120-181.ap-south-1.compute.amazonaws.com/success/${testSeriesId}` ||
+        `http://ec2-15-206-19-239.ap-south-1.compute.amazonaws.com/success/${testSeriesId}` ||
           `http://localhost:3000/success/${testSeriesId}`,
       );
     } else {
       res.redirect(
-        `http://ec2-52-66-120-181.ap-south-1.compute.amazonaws.com/fail/${testSeriesId}` ||
+        `http://ec2-15-206-19-239.ap-south-1.compute.amazonaws.com/fail/${testSeriesId}` ||
           `http://localhost:3000/fail/${testSeriesId}`,
       );
     }
