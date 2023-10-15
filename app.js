@@ -47,7 +47,7 @@ passport.deserializeUser(User.deserializeUser());
 app.use(
   cors({
     origin: [
-      "http://ec2-52-66-120-181.ap-south-1.compute.amazonaws.com",
+      "http://ec2-15-206-19-239.ap-south-1.compute.amazonaws.com",
       "http://localhost:3000",
     ],
     credentials: true,
